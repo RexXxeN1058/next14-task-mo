@@ -81,7 +81,7 @@ export const ListForm = () => {
           />
           <input
             hidden
-            value={params.boardId}
+            value={params?.boardId}
             name="boardId"
           />
           <div className="flex items-center gap-x-1">
