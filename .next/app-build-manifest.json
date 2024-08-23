@@ -1,0 +1,36 @@
+{
+  "pages": {
+    "/(platform)/(dashboard)/organization/[organizationId]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(platform)/(dashboard)/organization/[organizationId]/page.js"
+    ],
+    "/(platform)/(dashboard)/organization/[organizationId]/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(platform)/(dashboard)/organization/[organizationId]/layout.js"
+    ],
+    "/(platform)/(dashboard)/organization/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(platform)/(dashboard)/organization/layout.js"
+    ],
+    "/(platform)/(dashboard)/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(platform)/(dashboard)/layout.css",
+      "static/chunks/app/(platform)/(dashboard)/layout.js"
+    ],
+    "/(platform)/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(platform)/layout.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
+    ]
+  }
+}
